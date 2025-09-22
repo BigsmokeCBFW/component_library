@@ -1,0 +1,44 @@
+.square{
+  padding: 2px 12px;
+  border-radius: 4px;
+}
+
+.pill{
+  padding: 2px 12px;
+  border-radius: 12px;
+}
+
+.gray{
+  background-color: #F3F4F6;
+  color: #1F2937;
+}
+
+.red{
+  background-color: #FEE2E2;
+  color: #991B1B;  
+}
+
+.yellow{
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.blue{
+
+}
+
+.green{
+
+}
+
+.ingido{
+
+}
+
+.purple{
+
+}
+
+.pink{
+
+}
