@@ -1,11 +1,22 @@
-.square{
+body{
+  font-family: "Inter", sans-serif;
+
+}
+.badge{
+  font-weight: 500;
+  font-size: .875rem;
+}
+.square, .pill{
   padding: 2px 12px;
-  border-radius: 4px;
+  width: fit-content;
 }
 
 .pill{
-  padding: 2px 12px;
   border-radius: 12px;
+}
+
+.square{
+  border-radius: 4px;
 }
 
 .gray{
@@ -24,21 +35,26 @@
 }
 
 .blue{
-
+  background-color: #DBEAFE;
+  color: #1E40AF;
 }
 
 .green{
-
+  background-color: #D1FAE5;
+  color: #065F46;
 }
 
-.ingido{
-
+.indigo{
+  background-color: #E0E7FF;
+  color: #3730A3;
 }
 
 .purple{
-
+  background-color: #EDE9FE;
+  color: #5B21B6;
 }
 
 .pink{
-
+  background-color: #FCE7F3;
+  color: #9D174D;
 }
