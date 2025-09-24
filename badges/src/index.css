@@ -59,11 +59,77 @@ body{
   color: #9D174D;
 }
 
+/* -----------------------------------------------------------
+                          BANNER
+--------------------------------------------------------------*/
 .banner{
   width: 896px;
+  display: flex;
+  padding: 16px;
+  border-radius: 6px;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.title{
+  font-weight: 500;
+}
+.description{
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .success{
   background-color: #ECFDF5;
   color: #065F46;
+}
+.success-desc{
+  color: #047857;
+}
+
+.warning{
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+
+.warning-desc{
+  color: #B45309;
+}
+
+.error{
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+.error-desc{
+  color: #B45309;
+}
+
+.neutral{
+  background-color: #EFF6FF;
+  color: #1E40AF;
+}
+.neutral-desc{
+  color: #1C51B9;
+}
+
+/* -----------------------------------------------------------
+                          ICON
+--------------------------------------------------------------*/
+.icon{
+    font-size: 1.25rem;
+}
+.error-icon{
+  color: #F87171;
+}
+
+.success-icon{
+  color: #34D399;
+}
+
+.warning-icon{
+  color: #FBBF24;
+}
+
+.neutral-icon{
+  color: #60A5FA;
 }
