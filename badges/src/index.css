@@ -58,3 +58,12 @@ body{
   background-color: #FCE7F3;
   color: #9D174D;
 }
+
+.banner{
+  width: 896px;
+}
+
+.success{
+  background-color: #ECFDF5;
+  color: #065F46;
+}
