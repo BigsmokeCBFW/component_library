@@ -1,6 +1,6 @@
 import React from "react"
 
-import Icon from "./Icon.jsx"
+import Icon from "../../icon/Icon.jsx"
 
 
 const BannerContext = React.createContext()

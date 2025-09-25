@@ -1,5 +1,7 @@
 import Badge from "./components/Badge.jsx"
 import Banner from "./components/Banner/index.jsx"
+import Testimonial from "./components/Testimonial/index.jsx"
+import Avatar from "./assets/testimonia-img.jpg"
 
 export default function App(){
   
@@ -16,6 +18,17 @@ export default function App(){
         <Banner.Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Description>
       </Banner>
       <Banner variant="success" >Hello Gang!</Banner>
+
+
+      <Testimonial avatar={Avatar}>
+          <Testimonial.Quote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial.Quote>
+          <Testimonial.Name>May Anderson</Testimonial.Name>
+          <Testimonial.Role>Workcation, CTO</Testimonial.Role>
+      </Testimonial>
     </>
   )
 }
+
+/*
+
+*/

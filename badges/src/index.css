@@ -133,3 +133,57 @@ body{
 .neutral-icon{
   color: #60A5FA;
 }
+
+.cloud-icon{
+  font-size: 24px;
+}
+.quote-icon{
+  font-size: 43px;
+  color: gray;
+}
+
+/* -----------------------------------------------------------
+                          TESTIMONIAL
+--------------------------------------------------------------*/
+.testimonial{
+  width: 376px;
+  position: relative;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-top: 6.4375rem;
+}
+
+.content{
+  padding: 9.4375rem 1rem 4rem 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: #2545B8;
+  color: #FFFFFF;
+}
+
+.name-test,
+.role-test{
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  line-height: 1.5;
+}
+
+.role-test{
+  font-weight: 500;
+}
+
+.img-test{
+  position: absolute;
+  width: 344px;
+  height: 206px;
+  border-radius: 12px;
+  background-color: #991B1B;
+  top: 0;
+  left: 16px;
+  /* background-image: url('assets/testimonia-img.jpg'); */
+  background-size: cover;
+  background-position: 0 -100px;
+}
