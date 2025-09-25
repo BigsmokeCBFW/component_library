@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   font-family: "Inter", sans-serif;
 
@@ -183,7 +186,36 @@ body{
   background-color: #991B1B;
   top: 0;
   left: 16px;
-  /* background-image: url('assets/testimonia-img.jpg'); */
   background-size: cover;
   background-position: 0 -100px;
+}
+
+
+/* -----------------------------------------------------------
+                          LARGE SCREEN
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+  .testimonial{
+  width: 1200px;
+  height: 464px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+.content{
+  padding: 2rem 2rem 2rem 26rem ;
+  width: inherit;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-test{
+  height: 464px;
+  left: 32px;
+  background-position: 0 -50px;
+}
+
 }
